@@ -1,7 +1,6 @@
 import React from "react";
 import openseaLogo from "../public/opensea-logo-burg.svg";
 import foundationLogo from "../public/foundation.svg";
-import Image from "next/image";
 import NFTCard from "./NFTCard";
 
 function NFTDisplay() {
