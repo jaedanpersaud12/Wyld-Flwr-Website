@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import InstaLogo from "../public/Instagram.svg";
-import TwitLogo from "../public/Twitter.svg";
-import DiscLogo from "../public/discord-icon.svg";
-import MailIcon from "../public/mail-icon.svg";
-import wfLogo from "../public/wf-logo-white.png";
+import InstaLogo from "./Instagram.svg";
+import TwitLogo from "./Twitter.svg";
+import DiscLogo from "./discord-icon.svg";
+import MailIcon from "./mail-icon.svg";
+import wfLogo from "./public/wf-logo-white.png";
 
 function Header() {
   return (
@@ -19,7 +19,7 @@ function Header() {
         Your browser does not support the video tag.
       </video>
       <div className="relative py-4 md:py-6 z-20" x-data="{expanded: false}">
-        <div className="px-4 mx-auto max-w-7xl sticky top-0 sm:px-6 lg:px-8">
+        <div className="px-4 mx-auto max-w-7xl sticky top-0 sm:px-  6 lg:px-8">
           <div className="relative flex items-center justify-between">
             <div className="flex-shrink-0">
               <a

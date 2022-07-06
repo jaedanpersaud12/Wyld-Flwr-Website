@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "preinstall": "npx npm-force-resolutions",
+    "resolutions": { "glob-parent": "^6.0.1" }
   },
   "dependencies": {
     "next": "12.1.4",
