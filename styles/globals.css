@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Recoleta W05 Regular";
+  src: url("/fonts/5674631/15e8c7c9-adff-4b2a-a27e-5b8f7f3896d6.woff2")
+      format("woff2"),
+    url("/fonts/5674631/92cd2256-c74e-421f-bd64-a207c4063918.woff")
+      format("woff");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
